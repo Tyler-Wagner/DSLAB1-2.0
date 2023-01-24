@@ -1,7 +1,6 @@
 <?xml version="1.0"?>
 <Locations >
-  <Project>
-    <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_file>
+  <Project >
     <file_marker column=" 1" line=" 5" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.adb</vfs_file>
