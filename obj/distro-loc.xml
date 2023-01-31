@@ -1,169 +1,93 @@
 <?xml version="1.0"?>
 <Locations >
   <Project >
-    <file_marker column=" 1" line=" 12" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\distribution_service.adb</vfs_file>
+    <file_marker column=" 1" line=" 20" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 23" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
+    <file_marker column=" 1" line=" 43" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/food_datastructures.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.ads</vfs_file>
+    <file_marker column=" 1" line=" 53" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/food_datastructures.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 44" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\distribution_service.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 15" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\distribution_service.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 29" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 51" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 7" line=" 44" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 29" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
+    <file_marker column=" 1" line=" 32" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/food_salesservice.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\productdistributionmain.adb</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/food_salesservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 80" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\gatekeeperservice.ads</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 113" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/stats_fooddistribution.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 2" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/stats_fooddistribution.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\gatekeeperservice.adb</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstacks.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 39" line=" 13" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 15" line=" 17" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\gatekeeperservice.ads</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_salesservice.ads</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.ads</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 26" line=" 1" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_salesservice.adb</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\distribution_service.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\distribution_service.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 15" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\distribution_service.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\stats_fooddistribution.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\stats_fooddistribution.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\productdistributionmain.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\gatekeeperservice.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 61" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\dualstacks.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 15" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\dualstacks.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\dualstacks.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 34" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\dualstacks.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 61" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\circularque.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\gatekeeperservice.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_salesservice.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\stats_fooddistribution.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\stats_fooddistribution.ads</vfs_file>
+    <file_marker column=" 4" line=" 77" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
     </file_marker>
     <file_marker current="true" column=" 1" line=" 1" >
-      <vfs_project>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr</vfs_project>
-      <vfs_file>C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\src\food_datastructures.adb</vfs_file>
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

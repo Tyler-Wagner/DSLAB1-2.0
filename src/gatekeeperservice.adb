@@ -10,7 +10,7 @@ package body GateKeeperService is
 
    task body GateKeeper is
 
-      package twoStacks is new DualStacks (Food_Pack); -- **  specify size for storage space. **
+      package twoStacks is new DualStacks (Food_Pack); -- **  specify size for storage space. ** B OPTION HERE
       use twoStacks;
 
       rejected: Integer := 0;
