@@ -10,8 +10,8 @@ package body GateKeeperService is
 
    task body GateKeeper is
 
-      package twoStacks is new DualStacks (Food_Pack); -- **  specify size for storage space. **
-      use twoStacks;
+      package CircularQueue is new CircularQue (Food_Pack); -- **  specify size for storage space. **
+      use CircularQueue;
 
       rejected: Integer := 0;
       -- Declare food packet counters here.
@@ -44,8 +44,8 @@ package body GateKeeperService is
          select
             -- new arrivals of food
             accept acceptMessage( newFood: in Food_Pack) do
-               if not( emptyStack ) then
-                  twoStacks.pushStack( newFood);
+               if not( CircularQueFull ) then
+                  CircularQueue.acceptMessage( newFood);
                   put("GateKeeper insert accepted ");
                   PrintFood_Pack( newFood ); new_line;
                else
@@ -60,9 +60,9 @@ package body GateKeeperService is
             -- Accept request for distribution from sales
             accept retrieveMessage( newFood: out Food_Pack; availableForShipment: out Boolean) do
               availableForShipment := False;
-              if not(twoStacks.emptyStack) then
+              if not(CircularQueue.circularQueEmpty) then
                  availableForShipment := True;
-                 twoStacks.retrieveMessage( newFood ); --stopped here for the night
+                 CircularQueue.retrieveMessage( newFood );
                  PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
               end if;
             end retrieveMessage;

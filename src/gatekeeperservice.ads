@@ -22,7 +22,7 @@
 
 with Food_DataStructures;  use Food_DataStructures;
 With Stats_FoodDistribution;  use Stats_FoodDistribution;
-with CircularQue;
+with DualStacks;
 
 package GateKeeperService is
 

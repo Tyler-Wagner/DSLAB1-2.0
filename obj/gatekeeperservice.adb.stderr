@@ -1,0 +1,2 @@
+gatekeeperservice.adb:48:28: error: missing argument for parameter "fType" in call to "Pushstack" declared at dualstacks.ads:9, instance at line 13
+gatekeeperservice.adb:65:27: error: "retrieveMessage" not declared in "twoStacks"
