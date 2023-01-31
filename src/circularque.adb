@@ -7,35 +7,53 @@ package body CircularQue is
     package IntIO is new Ada.Text_IO.Integer_IO(Integer);
     use IntIO;
 
-   capacity: Natural := 25;  -- *****************  storage space. DEFAULT IS 21
+   capacity: Natural := 21;  -- *****************  storage space. This is really just the max size the stack can be
+
+
 
    subtype slotindex is natural range 0..(capacity - 1);  -- Natural implies >= 0.
-   front, rear: slotindex := 0;  -- insert at front, remove from rear.
-   mesnum : Natural range 0..(capacity-1) := 0; -- number in buff
-   box: array(slotindex) of message; -- circular buffer
-   maxMessages: Natural := capacity - 1; -- Integers >= 0.
 
-   procedure acceptMessage(msg: in message) is  -- ** modify for placing in dual stacks
+   front, rear: slotindex := 0;  -- insert at front, remove from rear. THIS IS WHAT YOU ARE MOVING
+
+   mesnum : Natural range 0..(capacity-1) := 0; -- number in buff THIS IS STACK 1
+
+   box: array(slotindex) of message; -- circular buffer
+
+   maxMessages: Natural := capacity - 1; -- Integers >= 0. THIS IS STACK 2
+
+
+
+
+
+   procedure acceptMessage(msg: in message) is  -- ** modify for placing in dual stacks THIS IS WHERE GENERIC FOOD GOES
    begin
-       if mesnum < maxMessages then  -- reserve space and insert msg.
-         rear := (rear + 1) mod capacity;  -- implement wrap-around.
-         box( rear ) := msg;
-         mesnum := mesnum + 1;
-       else
-          put("ERROR - Message rejected - queue is full!"); new_line(2);
-       end if;
+      rear := rear - 1;
+      if mesnum = maxMessages then
+         Put_Line("ERROR - stack is full");
+      else
+         box(rear) := msg;
+      end if;
    end acceptMessage;
+
+
+
+
 
    procedure retrieveMessage(msg: out message) is  -- ** modify in dual stacks to return highest priority food
    begin
-      if mesnum > 0 then  -- remove message if buff not empty
-          front := (front + 1) mod capacity;  -- front trails the next message by 1.  rear is the actual last msg.
-          msg := box(front);
-          mesnum := mesnum - 1;
+      front := front + 1;
+      if mesnum = maxMessages then
+         Put_Line("ERROR - Stack is full");
       else
-         put("ERROR - No message in the queue to retrieve!"); new_line(2);
+         msg := box(front);
       end if;
+
+
    end retrieveMessage;
+
+
+
+
 
    function CircularQueEmpty return Boolean is
    begin
