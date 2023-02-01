@@ -9,8 +9,8 @@ package body DualStack is
    
    subtype slotindex is natural range 0..(capacity - 1);  -- Natural implies >= 0.
    
-   meatTop, meatDel := 0;
-   vegTop, vegDel := Capacity;
+   meatTop := 0;
+   vegTop := Capacity;
    
    box: array(slotindex) of message; -- stack buffer
    

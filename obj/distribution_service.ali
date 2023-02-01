@@ -16,7 +16,7 @@ RV NO_DEFAULT_INITIALIZATION
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 
-U distribution_service%b  distribution_service.adb  b2827a70 OO PK
+U distribution_service%b  distribution_service.adb  3bddbbfe OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
@@ -68,9 +68,9 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D distribution_service.ads  20230123033614 e4fa9b10 distribution_service%s
 D distribution_service.adb  20230123033614 cff3c9ca distribution_service%b
-D dualstacks.ads	20230131063250 4b48d5b2 dualstacks%s
+D dualstack.ads		20230131233244 11b5d7a7 dualstack%s
 D food_datastructures.ads  20230123033614 bd9805c1 food_datastructures%s
-D gatekeeperservice.ads	20230131063544 73844815 gatekeeperservice%s
+D gatekeeperservice.ads	20230201001046 fadb899b gatekeeperservice%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s

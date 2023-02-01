@@ -10,7 +10,7 @@ package body GateKeeperService is
 
    task body GateKeeper is
 
-      package twoStacks is new DualStacks (Food_Pack); -- **  specify size for storage space. ** B OPTION HERE
+      package twoStacks is new DualStack (Food_Pack); -- **  specify size for storage space. ** B OPTION HERE
       use twoStacks;
 
       rejected: Integer := 0;
@@ -44,10 +44,16 @@ package body GateKeeperService is
          select
             -- new arrivals of food
             accept acceptMessage( newFood: in Food_Pack) do
-               if not( emptyStack ) then
-                  twoStacks.pushStack( newFood);
-                  put("GateKeeper insert accepted ");
-                  PrintFood_Pack( newFood ); new_line;
+               if ( DualStack.stackAvail ) then
+                  if getFood_PackFoodType(newFood) in GrainVegetable then
+                     DualStack.pushVeg( newFood);
+                     put("GateKeeper insert accepted ");
+                     PrintFood_Pack( newFood ); new_line;
+                  else
+                     DualStack.pushMeat(newFood);
+                     Put("GateKeeper insert accepted");
+                     PrintFood_Pack(newFood); New_Line;
+                  end if;
                else
                   rejected := rejected + 1;
                   put(" Rejected by GateKeeper: "); new_line;
@@ -60,10 +66,17 @@ package body GateKeeperService is
             -- Accept request for distribution from sales
             accept retrieveMessage( newFood: out Food_Pack; availableForShipment: out Boolean) do
               availableForShipment := False;
-              if not(twoStacks.emptyStack) then
-                 availableForShipment := True;
-                 twoStacks.retrieveMessage( newFood ); --stopped here for the night
-                 PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
+              if (DualStack.stackAvail) then
+                  if getFood_PackFoodType(newFood) in GrainVegetable then
+                     availableForShipment := True;
+                     DualStack.popVeg( newFood );
+                     PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
+                  else
+                     availableForShipment := True;
+                     DualStack.popMeat( newFood );
+                     PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
+                  end if;
+                  
               end if;
             end retrieveMessage;
          end select;

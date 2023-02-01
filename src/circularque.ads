@@ -21,13 +21,15 @@ generic
 
  package CircularQue is
 
-   procedure acceptMessage(msg: in message);
-
-   procedure retrieveMessage(msg: out message);
-
-   function circularQueEmpty return Boolean;
-
-   function circularQueFull return Boolean;
+   procedure pushMeat(msg: in message);
+   
+   procedure pushVeg(msg: in message);
+   
+   procedure popMeat(msg: out message);
+   
+   procedure popVeg(msg: out message);
+   
+   function stackAvail return Boolean;
 
    --Add method (function or procedure) for inserting at front of queue here and in body.
 

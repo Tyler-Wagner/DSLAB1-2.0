@@ -22,7 +22,7 @@ RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_IMPLICIT_LOOPS
 RV MAX_TASKS=1+
 
-U productdistributionmain%b  productdistributionmain.adb  e1503f4b NE OO SU
+U productdistributionmain%b  productdistributionmain.adb  680ffec5 NE OO SU
 W ada%s			ada.ads			ada.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
 Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
@@ -77,10 +77,10 @@ D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
 D distribution_service.ads  20230123033614 e4fa9b10 distribution_service%s
-D dualstacks.ads	20230131063250 4b48d5b2 dualstacks%s
+D dualstack.ads		20230131233244 11b5d7a7 dualstack%s
 D food_datastructures.ads  20230123033614 bd9805c1 food_datastructures%s
 D food_salesservice.ads	20230123033614 ef36e4fb food_salesservice%s
-D gatekeeperservice.ads	20230131063544 73844815 gatekeeperservice%s
+D gatekeeperservice.ads	20230201001046 fadb899b gatekeeperservice%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s

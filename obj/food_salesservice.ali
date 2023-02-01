@@ -22,7 +22,7 @@ RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV NO_ELABORATION_CODE
 
-U food_salesservice%b	food_salesservice.adb	efc76c70 OO PK
+U food_salesservice%b	food_salesservice.adb	6698adfe OO PK
 W ada%s			ada.ads			ada.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
 Z ada.exceptions%s	a-except.adb		a-except.ali
@@ -89,11 +89,11 @@ D a-tiinau.adb		20210520051130 89004916 ada.text_io.integer_aux%b
 D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20210520051130 b79731f4 ada.text_io.integer_io%b
 D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
-D dualstacks.ads	20230131063250 4b48d5b2 dualstacks%s
+D dualstack.ads		20230131233244 11b5d7a7 dualstack%s
 D food_datastructures.ads  20230123033614 bd9805c1 food_datastructures%s
 D food_salesservice.ads	20230123033614 ef36e4fb food_salesservice%s
 D food_salesservice.adb	20230123033614 3baf9487 food_salesservice%b
-D gatekeeperservice.ads	20230131063544 73844815 gatekeeperservice%s
+D gatekeeperservice.ads	20230201001046 fadb899b gatekeeperservice%s
 D interfac.ads		20210520051132 edec285f interfaces%s
 D i-c.ads		20210520051132 d9beded9 interfaces.c%s
 D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s

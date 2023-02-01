@@ -1,2 +1,10 @@
-gatekeeperservice.adb:48:28: error: missing argument for parameter "fType" in call to "Pushstack" declared at dualstacks.ads:9, instance at line 13
-gatekeeperservice.adb:65:27: error: "retrieveMessage" not declared in "twoStacks"
+gatekeeperservice.adb:47:21: error: invalid prefix in selected component "DualStack"
+gatekeeperservice.adb:49:22: error: invalid prefix in selected component "DualStack"
+gatekeeperservice.adb:49:31: error: prefixed call is only allowed for objects of a tagged type
+gatekeeperservice.adb:53:22: error: invalid prefix in selected component "DualStack"
+gatekeeperservice.adb:53:31: error: prefixed call is only allowed for objects of a tagged type
+gatekeeperservice.adb:69:19: error: invalid prefix in selected component "DualStack"
+gatekeeperservice.adb:72:22: error: invalid prefix in selected component "DualStack"
+gatekeeperservice.adb:72:31: error: prefixed call is only allowed for objects of a tagged type
+gatekeeperservice.adb:76:22: error: invalid prefix in selected component "DualStack"
+gatekeeperservice.adb:76:31: error: prefixed call is only allowed for objects of a tagged type
