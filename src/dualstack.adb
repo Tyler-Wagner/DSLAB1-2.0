@@ -7,11 +7,9 @@ package body DualStack is
    
    Capacity: Natural := 21;
    
+   meatTop: Natural range 0..Capacity := 0;
+   vegTop: Natural range 0 .. Capacity:= Capacity - 1;
    subtype slotindex is natural range 0..(capacity - 1);  -- Natural implies >= 0.
-   
-   meatTop := 0;
-   vegTop := Capacity;
-   
    box: array(slotindex) of message; -- stack buffer
    
    
@@ -39,29 +37,43 @@ package body DualStack is
       end if;
    end pushVeg;
    
-   
-   procedure popMeat(msg: out message) is
+ 
+   function popMeat return message is
    begin
       
       if meatTop /= 0 then
          meatTop := meatTop - 1;
          Put_Line("Meat Sold!");
+         return box(meatTop + 1);
       else
          Put_Line("Error - Stack is empty!");
       end if;
    end popMeat;
    
    
-   procedure popVeg(msg: out message) is
+   function popVeg return message is
    begin
        
       if vegTop < (21) then
          vegTop := vegTop + 1;
          Put_Line("General Product Sold!");
+         return box(vegTop - 1);        
       else
          Put_Line("Error - Stack is empty!");
       end if;
    end popVeg;
+   
+   
+   procedure popStack(msg: out message) is
+   begin
+      if meatTop > 0 then
+         msg := popMeat;
+      elsif vegTop < 21 then
+         msg := popVeg;
+      else
+         Put_Line("Stack empty");
+      end if;
+   end popStack;
    
    
    function stackAvail return Boolean is
@@ -73,6 +85,15 @@ package body DualStack is
          return True;
       end if;
    end stackAvail;
+   
+   function stackEmpty return Boolean is
+   begin
+      if meatTop /= 0 or vegTop /= Capacity then
+         return False;
+      else
+         return True;
+      end if;
+   end stackEmpty;
    
    
    

@@ -1,28 +1,24 @@
 [GENERATED OBJECT FILE]
 b__productdistributionmain.o
 [PROJECT FILES]
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\distro.gpr
-20230123033614 9fd24e24c43a6d329f11e46d7131ec5e
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr
+20230118151634
 [BOUND OBJECT FILES]
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\circularque.o
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\food_datastructures.o
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\stats_fooddistribution.o
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\gatekeeperservice.o
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\distribution_service.o
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\food_salesservice.o
-C:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\productdistributionmain.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/dualstack.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/food_datastructures.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/stats_fooddistribution.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/gatekeeperservice.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/distribution_service.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/food_salesservice.o
+/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/productdistributionmain.o
 [GENERATED SOURCE FILES]
 b__productdistributionmain.ads
 b__productdistributionmain.adb
 b__productdistributionmain.ali
 [RESULTING OPTIONS]
--LC:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\
--LC:\Users\tyler\Desktop\ATC\Ada\DSLAB1-2.0\obj\
--LC:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-L/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/
+-L/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/obj/
+-L/users/tylerwagner/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/
 -static
--static-libgcc
-C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
-C:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
--Xlinker
---stack=0x200000,0x1000
--mthreads
+/users/tylerwagner/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/libgnarl.a
+/users/tylerwagner/opt/gnat/2019/lib/gcc/x86_64-apple-darwin17.7.0/8.3.1/adalib/libgnat.a

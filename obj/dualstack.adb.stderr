@@ -1,2 +1,4 @@
-dualstack.adb:12:20: error: missing ":"
-dualstack.adb:13:18: error: missing ":"
+dualstack.adb:49:10: warning: "return" statement missing following this statement
+dualstack.adb:49:10: warning: Program_Error may be raised at run time
+dualstack.adb:62:10: warning: "return" statement missing following this statement
+dualstack.adb:62:10: warning: Program_Error may be raised at run time

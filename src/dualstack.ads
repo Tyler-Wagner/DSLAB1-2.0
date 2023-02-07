@@ -8,10 +8,17 @@ package DualStack is
    
    procedure pushVeg(msg: in message);
    
-   procedure popMeat(msg: out message);
+   procedure popStack(msg: out message);
    
-   procedure popVeg(msg: out message);
+   function popMeat return message;
+   
+   function popVeg return message;
+   
+   
    
    function stackAvail return Boolean;
+   
+   function stackEmpty return Boolean;
+   
 
 end DualStack;

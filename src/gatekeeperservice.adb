@@ -13,6 +13,11 @@ package body GateKeeperService is
       package twoStacks is new DualStack (Food_Pack); -- **  specify size for storage space. ** B OPTION HERE
       use twoStacks;
 
+      meat : Integer :=0;
+      veg : Integer :=0;
+      numbersoldmeat : Integer := 0;
+      numbersoldveg : Integer := 0;
+      
       rejected: Integer := 0;
       -- Declare food packet counters here.
 
@@ -44,15 +49,17 @@ package body GateKeeperService is
          select
             -- new arrivals of food
             accept acceptMessage( newFood: in Food_Pack) do
-               if ( DualStack.stackAvail ) then
-                  if getFood_PackFoodType(newFood) in GrainVegetable then
-                     DualStack.pushVeg( newFood);
+               if ( twoStacks.stackAvail ) then
+                  if (getFood_PackFoodType(newFood) in GrainVegetable) then
+                     twoStacks.pushVeg( newFood);
                      put("GateKeeper insert accepted ");
                      PrintFood_Pack( newFood ); new_line;
+                     veg := veg + 1;
                   else
-                     DualStack.pushMeat(newFood);
+                     twoStacks.pushMeat(newFood);
                      Put("GateKeeper insert accepted");
                      PrintFood_Pack(newFood); New_Line;
+                     meat := meat + 1;
                   end if;
                else
                   rejected := rejected + 1;
@@ -66,27 +73,38 @@ package body GateKeeperService is
             -- Accept request for distribution from sales
             accept retrieveMessage( newFood: out Food_Pack; availableForShipment: out Boolean) do
               availableForShipment := False;
-              if (DualStack.stackAvail) then
-                  if getFood_PackFoodType(newFood) in GrainVegetable then
-                     availableForShipment := True;
-                     DualStack.popVeg( newFood );
-                     PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
-                  else
-                     availableForShipment := True;
-                     DualStack.popMeat( newFood );
-                     PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
-                  end if;
-                  
+              if not (twoStacks.stackEmpty) then
+                 availableForShipment := True;
+                 twoStacks.popStack( newFood );
+                 PrintFood_Pack( newFood ); put(" Removed by GateKeeper for shipment."); new_line;
+                 if(getFood_PackFoodType( newFood ) in GrainVegetable) then
+                    numbersoldveg := numbersoldveg + 1;
+                 else
+                    numbersoldmeat := numbersoldmeat + 1;
+                 end if;
               end if;
+                  
             end retrieveMessage;
          end select;
 
          delay 1.1; -- Complete overhead due to accepting or rejecting a request prior to new iteration.
       end loop;
 
+      put("total meat packets sold");
+      Ada.Text_IO.Put_Line(Integer'Image(numbersoldmeat)); --gives me total meat sold
+      put("total veg packets sold");
+      Ada.Text_IO.Put_Line(Integer'Image(numbersoldveg)); --gives me total veg sold
+      put("number of veg packets generated");
+      Ada.Text_IO.Put_Line(Integer'Image(veg)); --gives total veg generated
+      new_Line(1); put("number of meat packets generated");
+      Ada.Text_IO.Put_Line(Integer'Image(meat));
+      
+      
       -- print time in service, statistics such as number food pacekets of meat and non-meat products processed.
       new_line(2);  put("Hours of operation prior to closing: ");
       Ada.Text_IO.Put_Line(Duration'Image(Ada.Calendar.Clock - Start_Time)); new_line(2);
-
+      
+      
+      
    end GateKeeper;
 end GateKeeperService;
