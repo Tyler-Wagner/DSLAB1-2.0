@@ -5,7 +5,7 @@ package body DualStack is
    
    
    
-   Capacity: Natural := 21;
+   Capacity: Natural := 27;
    
    meatTop: Natural range 0..Capacity := 0;
    vegTop: Natural range 0 .. Capacity:= Capacity - 1;
@@ -54,7 +54,7 @@ package body DualStack is
    function popVeg return message is
    begin
        
-      if vegTop < (21) then
+      if vegTop < (Capacity) then
          vegTop := vegTop + 1;
          Put_Line("General Product Sold!");
          return box(vegTop - 1);        
@@ -68,7 +68,7 @@ package body DualStack is
    begin
       if meatTop > 0 then
          msg := popMeat;
-      elsif vegTop < 21 then
+      elsif vegTop < Capacity then
          msg := popVeg;
       else
          Put_Line("Stack empty");

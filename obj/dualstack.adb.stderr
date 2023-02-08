@@ -1,4 +1,4 @@
-dualstack.adb:49:10: warning: "return" statement missing following this statement
-dualstack.adb:49:10: warning: Program_Error may be raised at run time
-dualstack.adb:62:10: warning: "return" statement missing following this statement
-dualstack.adb:62:10: warning: Program_Error may be raised at run time
+dualstack.adb:49:10: warning: "return" statement missing following this statement [enabled by default]
+dualstack.adb:49:10: warning: Program_Error may be raised at run time [enabled by default]
+dualstack.adb:62:10: warning: "return" statement missing following this statement [enabled by default]
+dualstack.adb:62:10: warning: Program_Error may be raised at run time [enabled by default]
