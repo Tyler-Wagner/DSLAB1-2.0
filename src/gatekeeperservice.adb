@@ -66,7 +66,7 @@ package body GateKeeperService is
                      veg := veg + 1;
                   else
                      twoStacks.pushMeat(newFood);
-                     Put("GateKeeper insert accepted");
+                     Put("GateKeeper insert accepted ");
                      PrintFood_Pack(newFood); New_Line;
                      meat := meat + 1;
                   end if;
