@@ -2,6 +2,8 @@ with Ada.Text_IO; use Ada.Text_IO;
 
 generic 
    type message is private;
+   
+   Capacity: Natural := 0;
 
 package DualStack is
    procedure pushMeat(msg: in message);

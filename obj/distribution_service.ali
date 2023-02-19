@@ -66,7 +66,7 @@ D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
 D distribution_service.ads  20230118153632 e4fa9b10 distribution_service%s
 D distribution_service.adb  20230118152237 cff3c9ca distribution_service%b
-D dualstack.ads		20230207193659 add137e9 dualstack%s
+D dualstack.ads		20230219120523 5904f573 dualstack%s
 D food_datastructures.ads  20230118153551 bd9805c1 food_datastructures%s
 D gatekeeperservice.ads	20230203151325 fadb899b gatekeeperservice%s
 D interfac.ads		20190518041254 5ab55268 interfaces%s

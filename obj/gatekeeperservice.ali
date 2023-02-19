@@ -28,7 +28,7 @@ RV MAX_SELECT_ALTERNATIVES=2
 RV MAX_TASK_ENTRIES=2
 RV MAX_TASKS=1
 
-U gatekeeperservice%b	gatekeeperservice.adb	fe60cb76 OO PK
+U gatekeeperservice%b	gatekeeperservice.adb	e41a11b2 OO PK
 W ada%s			ada.ads			ada.ali
 W ada.calendar%s	a-calend.adb		a-calend.ali
 Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
@@ -48,7 +48,7 @@ Z system.tasking%s	s-taskin.adb		s-taskin.ali
 Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
 Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
 
-U gatekeeperservice%s	gatekeeperservice.ads	b1243f06 EE OO PK
+U gatekeeperservice%s	gatekeeperservice.ads	45f1fd9c EE OO PK
 Z ada.real_time%s	a-reatim.adb		a-reatim.ali
 Z ada.tags%s		a-tags.adb		a-tags.ali
 W dualstack%s		dualstack.adb		dualstack.ali
@@ -82,11 +82,11 @@ D a-tiinau.ads		20190518041255 8114c8e4 ada.text_io.integer_aux%s
 D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20190518041255 df9cd7af ada.text_io.integer_io%b
 D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
-D dualstack.ads		20230207193659 add137e9 dualstack%s
-D dualstack.adb		20230207194928 ea66ce4c dualstack%b
+D dualstack.ads		20230219120523 5904f573 dualstack%s
+D dualstack.adb		20230219120417 50b74a11 dualstack%b
 D food_datastructures.ads  20230118153551 bd9805c1 food_datastructures%s
 D gatekeeperservice.ads	20230203151325 fadb899b gatekeeperservice%s
-D gatekeeperservice.adb	20230207195120 ed0200a0 gatekeeperservice%b
+D gatekeeperservice.adb	20230219120417 f778da64 gatekeeperservice%b
 D interfac.ads		20190518041254 5ab55268 interfaces%s
 D i-c.ads		20190518041254 5421119b interfaces.c%s
 D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
@@ -136,74 +136,78 @@ G c Z b b [put gatekeeperservice__integerio 80 14 9_4]
 G c Z b b [get gatekeeperservice__integerio 90 14 9_4]
 G c Z b b [put gatekeeperservice__integerio 97 14 9_4]
 G r s food_pack [b gatekeeperservice 7 1 none] [food_packIP food_datastructures 47 9 none]
-G r i none [b gatekeeperservice 7 1 none] [dualstack standard 6 9 none]
+G r i none [b gatekeeperservice 7 1 none] [dualstack standard 8 9 none]
 G r c none [b gatekeeperservice 7 1 none] [printfood_pack food_datastructures 30 14 none]
 G r c none [b gatekeeperservice 7 1 none] [getfood_packfoodtype food_datastructures 36 14 none]
 G r s food_pack [acceptmessage gatekeeperservice__gatekeeper 31 13 none] [food_packIP food_datastructures 47 9 none]
-G r i none [acceptmessage gatekeeperservice__gatekeeper 31 13 none] [dualstack standard 6 9 none]
+G r i none [acceptmessage gatekeeperservice__gatekeeper 31 13 none] [dualstack standard 8 9 none]
 G r c none [acceptmessage gatekeeperservice__gatekeeper 31 13 none] [printfood_pack food_datastructures 30 14 none]
 G r c none [acceptmessage gatekeeperservice__gatekeeper 31 13 none] [getfood_packfoodtype food_datastructures 36 14 none]
 G r s food_pack [retrievemessage gatekeeperservice__gatekeeper 34 13 none] [food_packIP food_datastructures 47 9 none]
-G r i none [retrievemessage gatekeeperservice__gatekeeper 34 13 none] [dualstack standard 6 9 none]
+G r i none [retrievemessage gatekeeperservice__gatekeeper 34 13 none] [dualstack standard 8 9 none]
 G r c none [retrievemessage gatekeeperservice__gatekeeper 34 13 none] [printfood_pack food_datastructures 30 14 none]
 G r c none [retrievemessage gatekeeperservice__gatekeeper 34 13 none] [getfood_packfoodtype food_datastructures 36 14 none]
 G r s food_pack [gatekeeperTK gatekeeperservice 29 8 none] [food_packIP food_datastructures 47 9 none]
-G r i none [gatekeeperTK gatekeeperservice 29 8 none] [dualstack standard 6 9 none]
+G r i none [gatekeeperTK gatekeeperservice 29 8 none] [dualstack standard 8 9 none]
 G r c none [gatekeeperTK gatekeeperservice 29 8 none] [printfood_pack food_datastructures 30 14 none]
 G r c none [gatekeeperTK gatekeeperservice 29 8 none] [getfood_packfoodtype food_datastructures 36 14 none]
 X 1 ada.ads
-16K9*Ada 20e8 26|3r6 3r24 4r6 4r25 9r29 24r19 25r19 30r21 34r30 94r7 96r7
-. 98r7 100r7 105r7 105r43
+16K9*Ada 20e8 26|3r6 3r24 4r6 4r25 9r29 33r19 34r19 39r21 43r30 103r7 105r7
+. 107r7 109r7 114r7 114r43
 X 2 a-calend.ads
-36K13*Calendar 409e17 26|4w10 4r29 24r23 25r23 30r25 34r34 105r47
-42I9*Time<222I9> 26|24r32 25r32
-56V13*Clock{42I9} 26|30s34 34s43 105s56
-103V14*"+"{42I9} 26|31s30
-112V14*"-"{duration} 26|105s62
-120V14*"<"{boolean} 26|34s49
+36K13*Calendar 409e17 26|4w10 4r29 33r23 34r23 39r25 43r34 114r47
+42I9*Time<222I9> 26|33r32 34r32
+56V13*Clock{42I9} 26|39s34 43s43 114s56
+103V14*"+"{42I9} 26|40s30
+112V14*"-"{duration} 26|114s62
+120V14*"<"{boolean} 26|43s49
 222I9 Time_Rep<long_long_integer>
 X 15 a-textio.ads
-57K13*Text_IO 727e16 26|3w10 3r28 9r33 94r11 96r11 98r11 100r11 105r11
-264U14*New_Line 26|56s49 61s47 66s53 67s46 69s68 79s90 99s7 104s7 105s78
-465U14*Put 26|55s22 60s22 66s19 68s19 69s19 79s45 93s7 95s7 97s7 99s20 104s21
-508U14*Put_Line 26|94s19 96s19 98s19 100s19 105s19
+57K13*Text_IO 727e16 26|3w10 3r28 9r33 103r11 105r11 107r11 109r11 114r11
+264U14*New_Line 26|65s49 70s47 75s53 76s46 78s68 88s90 108s7 113s7 114s78
+465U14*Put 26|64s22 69s22 75s19 77s19 78s19 88s45 102s7 104s7 106s7 108s20
+. 113s21
+508U14*Put_Line 26|16s10 103s19 105s19 107s19 109s19 114s19
 X 19 a-tiinio.ads
 46k21*Integer_IO 108e27 26|9r41
-80U14*Put 26|68s40[9]
+59U14*Get 26|17s10[9]
+80U14*Put 26|77s40[9]
 X 22 dualstack.ads
-6k9*DualStack 24e14 25|25w6 26|13r32
-7U14 pushMeat 26|59s32[13]
-9U14 pushVeg 26|54s32[13]
-11U14 popStack 26|78s28[13]
-19V13 stackAvail{boolean} 26|52s31[13]
-21V13 stackEmpty{boolean} 26|76s33[13]
+8k9*DualStack 26e14 25|25w6 26|22r32
+9U14 pushMeat 26|68s32[22]
+11U14 pushVeg 26|63s32[22]
+13U14 popStack 26|87s28[22]
+21V13 stackAvail{boolean} 26|61s31[22]
+23V13 stackEmpty{boolean} 26|85s33[22]
 X 24 food_datastructures.ads
 18K9*Food_DataStructures 53e24 25|23w6 23r32
-23E12*GrainVegetable{22E9} 26|53r56 80r56
-28R9*Food_Pack 50e14 25|31r40 34r43 26|13r43 51r47 74r50
-30U14*PrintFood_Pack 26|56s22 61s22 67s19 79s18
-36V14*getFood_PackFoodType{22E9} 26|53s23 80s21
+23E12*GrainVegetable{22E9} 26|62r56 89r56
+28R9*Food_Pack 50e14 25|31r40 34r43 26|22r43 60r47 83r50
+30U14*PrintFood_Pack 26|65s22 70s22 76s19 88s18
+36V14*getFood_PackFoodType{22E9} 26|62s23 89s21
 X 25 gatekeeperservice.ads
-27K9*GateKeeperService 38l5 38e22 26|7b14 110l5 110t22
-29t8*GateKeeper 26|11b14 109l8 109t18
-31Y13 acceptMessage 31>28 26|51b20 71l17 71t30
-31r28 newFood{24|28R9} 26|53r44 54r41 56r38 59r41 61r37 67r35
-34Y13 retrieveMessage 34<30 34<54 26|74b20 87l17 87t32
-34r30 newFood{24|28R9} 26|78m38 78r38 79m34 79r34 80r43
-34b54 availableForShipment{boolean} 26|75m15 75r15 77m18 77r18
+27K9*GateKeeperService 38l5 38e22 26|7b14 119l5 119t22
+29t8*GateKeeper 26|11b14 118l8 118t18
+31Y13 acceptMessage 31>28 26|60b20 80l17 80t30
+31r28 newFood{24|28R9} 26|62r44 63r41 65r38 68r41 70r37 76r35
+34Y13 retrieveMessage 34<30 34<54 26|83b20 96l17 96t32
+34r30 newFood{24|28R9} 26|87m38 87r38 88m34 88r34 89r43
+34b54 availableForShipment{boolean} 26|84m15 84r15 86m18 86r18
 X 26 gatekeeperservice.adb
 9K12 IntegerIO[19|46] 9r67
-13K15 twoStacks[22|6] 14r11 52r21 54r22 59r22 76r23 78r18
-16i7 meat{integer} 62m22 62r30 100r42
-17i7 veg{integer} 57m22 57r29 98r42
-18i7 numbersoldmeat{integer} 83m21 83r39 94r42
-19i7 numbersoldveg{integer} 81m21 81r38 96r42
-21i7 rejected{integer} 34r13 65m19 65r31 68r44
-24i7 Start_Time{2|42I9} 30m7 31r19 105r64
-25i7 End_Time{2|42I9} 31m7 34r51
-51r35 newFood{24|28R9}
-74r37 newFood{24|28R9}
-74b61 availableForShipment{boolean}
+13i7 Capacity{natural} 17m14 18r17
+14V16 StackSize{natural} 14b16 19l11 19t20 22s54
+22K15 twoStacks[22|8] 23r11 61r21 63r22 68r22 85r23 87r18
+25i7 meat{integer} 71m22 71r30 109r42
+26i7 veg{integer} 66m22 66r29 107r42
+27i7 numbersoldmeat{integer} 92m21 92r39 103r42
+28i7 numbersoldveg{integer} 90m21 90r38 105r42
+30i7 rejected{integer} 43r13 74m19 74r31 77r44
+33i7 Start_Time{2|42I9} 39m7 40r19 114r64
+34i7 End_Time{2|42I9} 40m7 43r51
+60r35 newFood{24|28R9}
+83r37 newFood{24|28R9}
+83b61 availableForShipment{boolean}
 X 30 stats_fooddistribution.ads
 22K9*Stats_FoodDistribution 25|24w6 24r35 30|37e28
 X 47 s-stausa.ads

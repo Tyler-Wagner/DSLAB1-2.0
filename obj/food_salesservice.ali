@@ -71,7 +71,7 @@ D a-tiinau.ads		20190518041255 8114c8e4 ada.text_io.integer_aux%s
 D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20190518041255 df9cd7af ada.text_io.integer_io%b
 D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
-D dualstack.ads		20230207193659 add137e9 dualstack%s
+D dualstack.ads		20230219120523 5904f573 dualstack%s
 D food_datastructures.ads  20230118153551 bd9805c1 food_datastructures%s
 D food_salesservice.ads	20230118153642 ef36e4fb food_salesservice%s
 D food_salesservice.adb	20230118152622 3baf9487 food_salesservice%b

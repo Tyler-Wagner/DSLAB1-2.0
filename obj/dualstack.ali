@@ -15,13 +15,13 @@ RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U dualstack%b		dualstack.adb		47b7f9a5 NE OO PK GE
+U dualstack%b		dualstack.adb		09b3bf62 NE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 Z ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
 Z ada.text_io.integer_io%s
 
-U dualstack%s		dualstack.ads		0325e284 BN EE NE OO PK GE
+U dualstack%s		dualstack.ads		f7f0201e BN EE NE OO PK GE
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 
@@ -35,8 +35,8 @@ D a-tiinau.ads		20190518041255 8114c8e4 ada.text_io.integer_aux%s
 D a-tiinio.ads		20190518041254 390edddb ada.text_io.integer_io%s
 D a-tiinio.adb		20190518041255 df9cd7af ada.text_io.integer_io%b
 D a-unccon.ads		20190518041255 0e9b276f ada.unchecked_conversion%s
-D dualstack.ads		20230207193659 add137e9 dualstack%s
-D dualstack.adb		20230207194928 ea66ce4c dualstack%b
+D dualstack.ads		20230219120523 5904f573 dualstack%s
+D dualstack.adb		20230219120417 50b74a11 dualstack%b
 D interfac.ads		20190518041254 5ab55268 interfaces%s
 D i-cstrea.ads		20190518041254 e53d8b8e interfaces.c_streams%s
 D system.ads		20190518041255 085b6ffb system%s
@@ -53,7 +53,7 @@ D s-traent.ads		20190518041254 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041255 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041255 1b7d22d2 system.wch_con%s
 G a e
-G c Z s b [dualstack standard 6 9 none]
+G c Z s b [dualstack standard 8 9 none]
 X 1 ada.ads
 16K9*Ada 20e8 11|1r6 1r23 12|3r25
 X 6 a-textio.ads
@@ -62,22 +62,22 @@ X 6 a-textio.ads
 X 8 a-tiinio.ads
 46k21*Integer_IO 108e27 12|3r37
 X 11 dualstack.ads
-4+9 message 7r31 9r30 11r32 13r28 15r27 12|13r29 17r31 29r30 41r28 54r27
+4+9 message 9r31 11r30 13r32 15r28 17r27 12|13r29 17r31 29r30 41r28 54r27
 . 67r32
-6k9*DualStack 4z9 24l5 24e14 12|1b14 103l5 103t14
-7U14*pushMeat 7>23 12|17b14 26l8 26t16
-7*23 msg{4+9} 12|17b23 22r26
-9U14*pushVeg 9>22 12|29b14 38l8 38t15
-9*22 msg{4+9} 12|29b22 34r25
-11U14*popStack 11<23 12|67b14 76l8 76t16
-11*23 msg{4+9} 12|67b23 70m10 72m10
-13V13*popMeat{4+9} 12|41b13 51l8 51t15 70s17
-15V13*popVeg{4+9} 12|54b13 64l8 64t14 72s17
-19V13*stackAvail{boolean} 12|79b13 87l8 87t18
-21V13*stackEmpty{boolean} 12|89b13 96l8 96t18
+6i4 Capacity{natural} 12|10r30 11r31 11r42 12r43 82r21 82r43 91r36
+8k9*DualStack 4z9 6z4 26l5 26e14 12|1b14 103l5 103t14
+9U14*pushMeat 9>23 12|17b14 26l8 26t16
+9*23 msg{4+9} 12|17b23 22r26
+11U14*pushVeg 11>22 12|29b14 38l8 38t15
+11*22 msg{4+9} 12|29b22 34r25
+13U14*popStack 13<23 12|67b14 76l8 76t16
+13*23 msg{4+9} 12|67b23 70m10 72m10
+15V13*popMeat{4+9} 12|41b13 51l8 51t15 70s17
+17V13*popVeg{4+9} 12|54b13 64l8 64t14 72s17
+21V13*stackAvail{boolean} 12|79b13 87l8 87t18
+23V13*stackEmpty{boolean} 12|89b13 96l8 96t18
 X 12 dualstack.adb
 3K12 IntIO[8|46] 4r8
-8i4 Capacity{natural} 10r30 11r31 11r42 12r43 82r21 82r43 91r36
 10i4 meatTop{natural} 20r10 21m10 21r21 22r14 32r20 44r10 45m10 45r21 47r21
 . 69r10 82r10 91r10
 11i4 vegTop{natural} 20r21 32r10 33m10 33r20 34r14 57r10 58m10 58r20 60r21

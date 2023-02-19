@@ -2,153 +2,133 @@
 <Locations >
   <Project>
     <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_file>
-    <file_marker column=" 4" line=" 98" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 36" line=" 13" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
-    </file_marker>
-    <file_marker column=" 56" line=" 20" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/circularque.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 25" line=" 84" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 15" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/distribution_service.adb</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
     <file_marker column=" 1" line=" 1" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/DoubleStack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/productdistributionmain.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 66" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/DoubleStack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/DoubleStack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 96" >
+      <vfs_project />
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 98" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
+    <file_marker column=" 12" line=" 17" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 8" line=" 13" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 39" line=" 11" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 10" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 83" line=" 12" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 10" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 37" line=" 20" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 21" line=" 10" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 7" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 20" line=" 41" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 60" line=" 99" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+    <file_marker column=" 12" line=" 56" >
+      <vfs_project />
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 42" line=" 94" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+    <file_marker column=" 19" line=" 96" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 25" line=" 84" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 7" line=" 21" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
+    <file_marker column=" 23" line=" 66" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/DoubleStack.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 36" line=" 78" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/productdistributionmain.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 96" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 17" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 2" line=" 22" >
+      <vfs_project />
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
     </file_marker>
     <file_marker column=" 9" line=" 15" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_project />
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/distribution_service.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 39" >
+    <file_marker column=" 4" line=" 11" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 23" line=" 66" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/DoubleStack.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/productdistributionmain.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/OptionB/OptionB/src/gatekeeperservice.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 21" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 4" line=" 39" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 76" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 17" line=" 70" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 41" line=" 11" >
+    <file_marker column=" 12" line=" 17" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
     </file_marker>
+    <file_marker column=" 63" line=" 22" >
+      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
+      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/gatekeeperservice.adb</vfs_file>
+    </file_marker>
     <file_marker column=" 9" line=" 15" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/distribution_service.adb</vfs_file>
     </file_marker>
-    <file_marker column=" 17" line=" 70" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 1" line=" 13" >
+    <file_marker column=" 27" line=" 6" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.ads</vfs_file>
     </file_marker>
-    <file_marker column=" 34" line=" 54" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 9" line=" 15" >
+    <file_marker current="true" column=" 9" line=" 15" >
       <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
       <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/distribution_service.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 41" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 47" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 34" line=" 47" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker column=" 4" line=" 39" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
-    </file_marker>
-    <file_marker current="true" column=" 10" line=" 49" >
-      <vfs_project>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/distro.gpr</vfs_project>
-      <vfs_file>/Users/tylerwagner/Desktop/ATC/ADA/DSLAB1 2.0/src/dualstack.adb</vfs_file>
     </file_marker>
   </Project>
 </Locations>

@@ -5,7 +5,7 @@ package body DualStack is
    
    
    
-   Capacity: Natural := 21;
+   --Capacity: Natural := 21;
    
    meatTop: Natural range 0..Capacity := 0;
    vegTop: Natural range 0 .. Capacity:= Capacity - 1;

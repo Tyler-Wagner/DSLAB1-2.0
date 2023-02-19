@@ -9,8 +9,17 @@ package body GateKeeperService is
    package IntegerIO is new Ada.Text_IO.Integer_IO(Integer);  use IntegerIO;
 
    task body GateKeeper is
+      
+      Capacity : Natural := 0;
+      function StackSize return Natural is
+      begin
+         Put_Line("Enter the size of the stack");
+         Get(Capacity);
+         return(Capacity);
+      end StackSize;
+      
 
-      package twoStacks is new DualStack (Food_Pack); -- **  specify size for storage space. ** B OPTION HERE
+      package twoStacks is new DualStack (Food_Pack, StackSize); -- **  specify size for storage space. ** B OPTION HERE
       use twoStacks;
 
       meat : Integer :=0;
